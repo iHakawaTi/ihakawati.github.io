@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Abdallah El-Hakawati - Data Science & AI Student | Deep Learning, Computer Vision, LLMs">
+    <title>Abdallah El-Hakawati | AI & Data Science</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo"><span class="logo-bracket">&lt;</span>AH<span
+                    class="logo-bracket">/&gt;</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#competitions" class="nav-link">Competitions</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i><i class="fas fa-sun"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="focus-banner">
+        <div class="focus-content">
+            <span class="focus-icon"><i class="fas fa-brain"></i></span>
+            <span class="focus-text">Currently exploring: <strong>Deep Learning • LLMs • Transformers •
+                    MCP</strong></span>
+            <span class="focus-pulse"></span>
+        </div>
+    </div>
+
+    <section class="hero" id="home">
+        <canvas id="neural-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-in"><span class="badge-dot"></span>Open to opportunities</div>
+            <h1 class="hero-title">
+                <span class="greeting">Hi, I'm</span>
+                <span class="name" id="typed-name"></span><span class="cursor-blink">|</span>
+            </h1>
+            <p class="hero-subtitle animate-slide-up">
+                <span class="highlight">Data Science & AI</span> • <span class="highlight">Deep Learning</span> • <span
+                    class="highlight">Quinx</span>
+            </p>
+            <p class="hero-description animate-slide-up delay-1">Turning complex problems into intelligent solutions.
+                Building the future one model at a time.</p>
+            <div class="hero-buttons animate-slide-up delay-2">
+                <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+                <a href="assets/resume.pdf" class="btn btn-secondary" download><i class="fas fa-download"></i> Download
+                    Resume</a>
+            </div>
+            <div class="hero-socials animate-fade-in delay-3">
+                <a href="https://github.com/iHakawaTi" target="_blank" class="social-link" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abdallahelhakawati/" target="_blank" class="social-link"
+                    title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://codeforces.com/profile/iHakawaTi" target="_blank" class="social-link"
+                    title="Codeforces"><i class="fas fa-code"></i></a>
+                <a href="mailto:abdallahelhakawati@gmail.com" class="social-link" title="Email"><i
+                        class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div><span>Scroll Down</span>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section-title"><span class="title-number">01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="assets/images/WhatsApp Image 2026-01-17 at 3.52.32 AM.jpeg" alt="Abdallah El-Hakawati"
+                            class="profile-image">
+                        <div class="image-border"></div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm <span class="highlight">Abdallah El-Hakawati</span>, a 3rd year <span
+                            class="highlight">Data Science & AI</span> student at Applied Science Private University
+                        with an obsession for deep learning and building intelligent systems that actually work.</p>
+                    <p>I'm the founder of <span class="highlight">Quinx</span> — a competitive team I created that
+                        competes across various fields including programming, machine learning, computer vision, and
+                        hackathons. We push boundaries together and consistently achieve top placements.</p>
+                    <p>From winning programming competitions to building real-time computer vision systems and workflow
+                        automations with n8n, I'm
+                        constantly pushing boundaries. My current focus spans Deep Learning, LLMs, Transformers,
+                        Computer Vision, Cloud (AWS & GCP), and Automation.</p>
+                    <div class="about-stats">
+                        <div class="stat-item"><span class="stat-number" data-count="30">0</span><span
+                                class="stat-label">Projects</span></div>
+                        <div class="stat-item"><span class="stat-number" data-count="100">0</span><span
+                                class="stat-label">Contributions</span></div>
+                        <div class="stat-item"><span class="stat-number" data-count="10">0</span><span
+                                class="stat-label">Competitions</span></div>
+                        <div class="stat-item"><span class="stat-number" data-count="35">0</span><span
+                                class="stat-label">Certifications</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="journey section" id="journey">
+        <div class="container">
+            <h2 class="section-title"><span class="title-number">02.</span> My Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h3>B.Sc. in Data Science & Artificial Intelligence</h3>
+                        <p class="timeline-place">Applied Science Private University</p>
+                        <p>Specializing in Machine Learning, Deep Learning, Computer Vision, and NLP. Currently in 3rd
+                            year.</p>
+                        <div class="timeline-tags"><span class="tag">Deep Learning</span><span class="tag">Computer
+                                Vision</span><span class="tag">NLP</span><span class="tag">Cloud</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"><i class="fas fa-trophy"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h3>Competition Domination Era</h3>
+                        <p class="timeline-place">Multiple Universities & Platforms</p>
+                        <p>Won multiple 1st places in JPC7, Inter-university ML Contest, Computer Vision Competition,
+                            and more.</p>
+                        <div class="timeline-tags"><span class="tag">1st Place JPC7</span><span class="tag">1st Place ML
+                                Contest</span><span class="tag">1st Place CV</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"><i class="fas fa-certificate"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h3>35+ Professional Certifications</h3>
+                        <p class="timeline-place">Various Platforms</p>
+                        <p>Continuously learning and earning certifications in AI, ML, Cloud, and development
+                            technologies.</p>
+                        <div class="timeline-tags"><span class="tag">AI/ML</span><span class="tag">Cloud</span><span
+                                class="tag">Development</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="competitions section" id="competitions">
+        <div class="container">
+            <h2 class="section-title"><span class="title-number">03.</span> Competitions & Achievements</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="programming">Programming</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="cv">Computer Vision</button>
+            </div>
+            <div class="competitions-grid">
+                <div class="competition-card" data-category="programming">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="card-badge">1st Place</div>
+                    <h3>JPC7 Programming Competition</h3>
+                    <p>Competitive programming contest showcasing algorithmic problem-solving skills.</p>
+                    <div class="card-footer"><span class="card-date">2024</span><span
+                            class="card-type">Programming</span></div>
+                </div>
+                <div class="competition-card" data-category="ml">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="card-badge">1st Place</div>
+                    <h3>Inter-university ML Contest</h3>
+                    <p>Machine learning competition between multiple universities. Built winning ML solution.</p>
+                    <div class="card-footer"><span class="card-date">2024</span><span class="card-type">Machine
+                            Learning</span></div>
+                </div>
+                <div class="competition-card" data-category="cv">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="card-badge">1st Place</div>
+                    <h3>Computer Vision Competition</h3>
+                    <p>Developed high-performance CV solution achieving top accuracy and speed.</p>
+                    <div class="card-footer"><span class="card-date">2024</span><span class="card-type">Computer
+                            Vision</span></div>
+                </div>
+                <div class="competition-card" data-category="ml">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i class="fas fa-medal"></i></div>
+                    <div class="card-badge">2nd Place</div>
+                    <h3>Inter-university ML Contest v2</h3>
+                    <p>Second edition of the inter-university ML competition with advanced challenges.</p>
+                    <div class="card-footer"><span class="card-date">2025</span><span class="card-type">Machine
+                            Learning</span></div>
+                </div>
+                <div class="competition-card" data-category="programming">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i class="fas fa-medal"></i></div>
+                    <div class="card-badge">2nd Place</div>
+                    <h3>Hour of Code</h3>
+                    <p>Coding challenge demonstrating rapid problem-solving and programming skills.</p>
+                    <div class="card-footer"><span class="card-date">2024</span><span
+                            class="card-type">Programming</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2 class="section-title"><span class="title-number">04.</span> Projects & Repositories</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-video"></i></div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/iHakawaTi/MOT17-Challenge" target="_blank"
+                                    class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-label">🏆 1st Place Solution</div>
+                        <h3>MOT17 Multi-Object Tracking</h3>
+                        <p>High-performance tracking pipeline using YOLOv11l + BoT-SORT. Optimized for NVIDIA A100 with
+                            Re-ID and GMC.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>YOLOv11</span><span>BoT-SORT</span><span>NVIDIA A100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-eye"></i></div>
+                        <div class="project-overlay">
+                            <div class="project-links"><a href="https://github.com/iHakawaTi/PASCAL-VOC-2012-Challenge"
+                                    target="_blank" class="project-link"><i class="fab fa-github"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-label">🏆 1st Place Solution</div>
+                        <h3>PASCAL VOC Detection</h3>
+                        <p>Efficient detection with YOLOv11n achieving 110 FPS with 5MB model. Optimized for limited
+                            hardware.</p>
+                        <div class="project-tech"><span>Python</span><span>YOLOv11</span><span>PyTorch</span></div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-hand-paper"></i></div>
+                        <div class="project-overlay">
+                            <div class="project-links"><a href="https://github.com/iHakawaTi/GestraSpeak"
+                                    target="_blank" class="project-link"><i class="fab fa-github"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>GestraSpeak</h3>
+                        <p>Real-time sign language translation using MediaPipe and OpenCV. Converts gestures to audible
+                            speech.</p>
+                        <div class="project-tech"><span>Python</span><span>MediaPipe</span><span>OpenCV</span></div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-robot"></i></div>
+                        <div class="project-overlay">
+                            <div class="project-links"><a href="https://github.com/iHakawaTi/jarvis" target="_blank"
+                                    class="project-link"><i class="fab fa-github"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Jarvis</h3>
+                        <p>AI assistant project inspired by Iron Man's JARVIS for automation and intelligent
+                            interaction.</p>
+                        <div class="project-tech"><span>JavaScript</span><span>AI</span><span>Automation</span></div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-futbol"></i></div>
+                        <div class="project-overlay">
+                            <div class="project-links"><a href="https://github.com/iHakawaTi/PitchBooker"
+                                    target="_blank" class="project-link"><i class="fab fa-github"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>PitchBooker</h3>
+                        <p>Pitch booking app with Flutter and Firebase. Real-time slot booking for sports fields.</p>
+                        <div class="project-tech"><span>Flutter</span><span>Dart</span><span>Firebase</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta"><a href="https://github.com/iHakawaTi" target="_blank" class="btn btn-outline"><i
+                        class="fab fa-github"></i> View All 15+ Repos on GitHub</a></div>
+        </div>
+    </section>
+
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section-title"><span class="title-number">05.</span> Technical Skills</h2>
+            <div class="skills-container">
+                <!-- Row 1: AI & ML | Languages -->
+                <div class="skills-row">
+                    <div class="skills-category">
+                        <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span class="skill-name">Deep Learning</span><span
+                                        class="skill-percent">90%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span class="skill-name">Computer Vision</span><span
+                                        class="skill-percent">90%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span class="skill-name">NLP & LLMs</span><span
+                                        class="skill-percent">85%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span class="skill-name">Transformers</span><span
+                                        class="skill-percent">80%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span class="skill-name">Feature Engineering</span><span
+                                        class="skill-percent">85%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span class="skill-name">Statistical Analysis</span><span
+                                        class="skill-percent">85%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="tech-icons">
+                            <div class="tech-icon"><i class="fab fa-python"></i><span>Python</span></div>
+                            <div class="tech-icon"><i class="fas fa-chart-line"></i><span>R</span></div>
+                            <div class="tech-icon"><i class="fas fa-mobile-alt"></i><span>Flutter/Dart</span></div>
+                            <div class="tech-icon"><i class="fas fa-hashtag"></i><span>C#</span></div>
+                            <div class="tech-icon"><i class="fas fa-code"></i><span>C++</span></div>
+                            <div class="tech-icon"><i class="fas fa-database"></i><span>SQL</span></div>
+                            <div class="tech-icon"><i class="fab fa-java"></i><span>Java</span></div>
+                            <div class="tech-icon"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+                            <div class="tech-icon"><i class="fab fa-linux"></i><span>Linux/Bash</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: ML/DL Frameworks | Data Visualization -->
+                <div class="skills-row">
+                    <div class="skills-category">
+                        <h3><i class="fas fa-robot"></i> ML & Deep Learning</h3>
+                        <div class="tech-icons">
+                            <div class="tech-icon"><i class="fas fa-cogs"></i><span>Scikit-learn</span></div>
+                            <div class="tech-icon"><i class="fas fa-brain"></i><span>TensorFlow</span></div>
+                            <div class="tech-icon"><i class="fas fa-layer-group"></i><span>Keras</span></div>
+                            <div class="tech-icon"><i class="fas fa-fire"></i><span>PyTorch</span></div>
+                            <div class="tech-icon"><i class="fas fa-rocket"></i><span>XGBoost</span></div>
+                            <div class="tech-icon"><i class="fas fa-cat"></i><span>CatBoost</span></div>
+                            <div class="tech-icon"><i class="fas fa-comment-dots"></i><span>Spacy/NLTK</span></div>
+                            <div class="tech-icon"><i class="fas fa-eye"></i><span>OpenCV</span></div>
+                            <div class="tech-icon"><i class="fas fa-hands"></i><span>MediaPipe</span></div>
+                            <div class="tech-icon"><i class="fas fa-cube"></i><span>YOLO</span></div>
+                            <div class="tech-icon"><i class="fas fa-random"></i><span>CTGANs/SDV</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3><i class="fas fa-chart-bar"></i> Data Manipulation & Visualization</h3>
+                        <div class="tech-icons">
+                            <div class="tech-icon"><i class="fas fa-table"></i><span>Pandas</span></div>
+                            <div class="tech-icon"><i class="fas fa-calculator"></i><span>NumPy</span></div>
+                            <div class="tech-icon"><i class="fas fa-chart-line"></i><span>Matplotlib</span></div>
+                            <div class="tech-icon"><i class="fas fa-chart-area"></i><span>Seaborn</span></div>
+                            <div class="tech-icon"><i class="fas fa-chart-pie"></i><span>Plotly</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3: Cloud & Deployment | Tools & Platforms -->
+                <div class="skills-row">
+                    <div class="skills-category">
+                        <h3><i class="fas fa-cloud"></i> Cloud & Deployment</h3>
+                        <div class="tech-icons">
+                            <div class="tech-icon"><i class="fab fa-aws"></i><span>AWS</span></div>
+                            <div class="tech-icon"><i class="fab fa-google"></i><span>Google Cloud</span></div>
+                            <div class="tech-icon"><i class="fas fa-stream"></i><span>Streamlit</span></div>
+                            <div class="tech-icon"><i class="fab fa-docker"></i><span>Docker</span></div>
+                            <div class="tech-icon"><i class="fas fa-fire-alt"></i><span>Firebase</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                        <div class="tech-icons">
+                            <div class="tech-icon"><i class="fab fa-git-alt"></i><span>Git/GitHub</span></div>
+                            <div class="tech-icon"><i class="fas fa-book"></i><span>Jupyter</span></div>
+                            <div class="tech-icon"><i class="fas fa-laptop-code"></i><span>VS Code</span></div>
+                            <div class="tech-icon"><i class="fas fa-project-diagram"></i><span>n8n</span></div>
+                            <div class="tech-icon"><i class="fas fa-database"></i><span>Vector DBs</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Section -->
+                <div class="skills-category certifications-category">
+                    <h3><i class="fas fa-certificate"></i> Professional Certifications</h3>
+                    <div class="certifications-grid">
+                        <div class="certification-card">
+                            <div class="cert-icon"><i class="fas fa-award"></i></div>
+                            <div class="cert-content">
+                                <h4>Machine Learning</h4>
+                                <p class="cert-issuer">DeepLearning.AI • July 2024</p>
+                                <div class="cert-skills">Machine Learning, Deep Learning, Neural Networks</div>
+                            </div>
+                        </div>
+                        <div class="certification-card">
+                            <div class="cert-icon"><i class="fas fa-award"></i></div>
+                            <div class="cert-content">
+                                <h4>Data Science Track</h4>
+                                <p class="cert-issuer">SHAI For AI • Oct 2024</p>
+                                <div class="cert-skills">Data Science, ML, DL, Statistical Analysis, Python, SQL, Git
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certification-card">
+                            <div class="cert-icon"><i class="fas fa-award"></i></div>
+                            <div class="cert-content">
+                                <h4>Associate Data Scientist in Python</h4>
+                                <p class="cert-issuer">DataCamp • Aug 2024</p>
+                                <div class="cert-skills">Data Modeling, Visualization, ML Fundamentals</div>
+                            </div>
+                        </div>
+                        <div class="certification-card">
+                            <div class="cert-icon"><i class="fas fa-award"></i></div>
+                            <div class="cert-content">
+                                <h4>Google Data Analytics</h4>
+                                <p class="cert-issuer">Google • Jun 2025</p>
+                                <div class="cert-skills">Data Analytics, R, SQL</div>
+                            </div>
+                        </div>
+                        <div class="certification-card">
+                            <div class="cert-icon"><i class="fas fa-award"></i></div>
+                            <div class="cert-content">
+                                <h4>The Data Science Course</h4>
+                                <p class="cert-issuer">Udemy • Mar 2024</p>
+                                <div class="cert-skills">Deep Learning, ML, Statistical Analysis, Visualization</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title"><span class="title-number">06.</span> Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h3>Let's Build Something Amazing Together!</h3>
+                    <p>I'm always excited to discuss new opportunities, collaborate on AI projects, or compete in
+                        hackathons.</p>
+                    <a href="mailto:abdallahelhakawati@gmail.com" class="btn btn-primary btn-large"><i
+                            class="fas fa-paper-plane"></i> Say Hello</a>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://github.com/iHakawaTi" target="_blank" class="contact-social-card"><i
+                            class="fab fa-github"></i><span class="social-name">GitHub</span><span
+                            class="social-handle">@iHakawaTi</span></a>
+                    <a href="https://www.linkedin.com/in/abdallahelhakawati/" target="_blank"
+                        class="contact-social-card"><i class="fab fa-linkedin-in"></i><span
+                            class="social-name">LinkedIn</span><span class="social-handle">abdallahelhakawati</span></a>
+                    <a href="https://codeforces.com/profile/iHakawaTi" target="_blank" class="contact-social-card"><i
+                            class="fas fa-code"></i><span class="social-name">Codeforces</span><span
+                            class="social-handle">@iHakawaTi</span></a>
+                    <a href="mailto:abdallahelhakawati@gmail.com" class="contact-social-card"><i
+                            class="fas fa-envelope"></i><span class="social-name">Email</span><span
+                            class="social-handle">abdallahelhakawati@gmail.com</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Designed & Built with <span class="heart">❤</span> by <span
+                    class="highlight">Abdallah El-Hakawati</span></p>
+            <p class="footer-copyright">© 2026 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
