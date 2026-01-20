@@ -126,6 +126,7 @@ button:hover~.cursor {
 .section {
     padding: 100px 0;
     position: relative;
+    overflow: hidden;
 }
 
 .section-title {
@@ -564,6 +565,7 @@ button:hover~.cursor {
     position: relative;
     width: 280px;
     height: 280px;
+    overflow: hidden;
 }
 
 .image-placeholder {
@@ -1342,6 +1344,26 @@ button:hover~.cursor {
     /* Hide scroll indicator on mobile - touch devices use swipe gestures */
     .scroll-indicator {
         display: none;
+    }
+
+    /* Adjust timeline for mobile */
+    .timeline {
+        padding-left: 24px;
+    }
+
+    .timeline::before {
+        left: 7px;
+    }
+
+    .timeline-item {
+        padding-left: 24px;
+    }
+
+    .timeline-marker {
+        left: -24px;
+        width: 24px;
+        height: 24px;
+        font-size: 0.7rem;
     }
 }
 
