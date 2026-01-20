@@ -14,9 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ===== Neural Network Background =====
 function initNeuralNetwork() {
-    const canvas = document.getElementById('neural-canvas');
-    if (canvas && window.NeuralNetwork) {
-        window.neuralNetwork = new NeuralNetwork(canvas);
+    // Initialize global neural network background (covers entire page)
+    const globalCanvas = document.getElementById('global-neural-canvas');
+    if (globalCanvas && window.NeuralNetwork) {
+        window.neuralNetwork = new NeuralNetwork(globalCanvas);
     }
 }
 
